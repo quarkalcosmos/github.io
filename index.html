@@ -23,7 +23,7 @@
   }
   .person {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
@@ -37,11 +37,11 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-right: 30px;
+    margin-bottom: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
   .person-info {
-    flex: 1;
+    text-align: center;
   }
   .person-info h2 {
     margin: 0 0 10px;
@@ -68,24 +68,24 @@
   <h1>Le dijo un quark al Cosmos</h1>
   <h2>¿Quiénes somos?</h2>
   <div class="person">
-    <img src="persona1.jpg" alt="Persona 1">
     <div class="person-info">
+      <img src="persona1.jpg" alt="Persona 1">
       <h2>Nombre Persona 1</h2>
       <p>Descripción breve de la persona 1.</p>
     </div>
   </div>
 
   <div class="person">
-    <img src="persona2.jpg" alt="Persona 2">
     <div class="person-info">
-      <h2> Javier Méndez</h2>
+      <img src="persona2.jpg" alt="Persona 2">
+      <h2>NJavier Méndez</h2>
       <p>Graduado en física, cursó estudios de astrofísica en la Universidad Complutense de Madrid. Actualmente trabaja en el Instituto de Astrofísica de Andalucía (IAA-CSIC) donde desarrolla sus estudios de doctorado en Astrofísica de Altas Energías y Astropartículas. Le gusta la Alhambra, estar ocupado todo el día, los puestos de poder y mandar auto-descripciones por Watsapp para luego colgarlas en páginas webs. Su mayor defecto es no tener fotos bonitas para acompañar esas descripciones.</p>
     </div>
   </div>
 
   <div class="person">
-    <img src="persona3.jpg" alt="Persona 3">
     <div class="person-info">
+      <img src="persona3.jpg" alt="Persona 3">
       <h2>Nombre Persona 3</h2>
       <p>Descripción breve de la persona 3.</p>
     </div>
