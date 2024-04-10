@@ -1,9 +1,70 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presentación de Personas</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .person {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .person img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+  }
+  .person-info {
+    padding: 20px;
+  }
+  .person-info h2 {
+    margin-top: 0;
+  }
+</style>
+</head>
 <body>
-  <h1>Le dijo Un Quark al Cosmos</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
 
+<div class="container">
+  <div class="person">
+    <img src="persona1.jpg" alt="Persona 1">
+    <div class="person-info">
+      <h2>Nombre Persona 1</h2>
+      <p>Descripción breve de la persona 1.</p>
+    </div>
+  </div>
+
+  <div class="person">
+    <img src="persona2.jpg" alt="Persona 2">
+    <div class="person-info">
+      <h2>Nombre Persona 2</h2>
+      <p>Descripción breve de la persona 2.</p>
+    </div>
+  </div>
+
+  <div class="person">
+    <img src="persona3.jpg" alt="Persona 3">
+    <div class="person-info">
+      <h2>Nombre Persona 3</h2>
+      <p>Descripción breve de la persona 3.</p>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
